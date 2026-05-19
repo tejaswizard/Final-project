@@ -8,15 +8,14 @@ This program is useful because for people who are just getting into stock tradin
 Overall, we were able to achieve many of the core goals we had in mind. Here are a few of the large features of Stonks:
 
 - Add and remove any valid stocks to a personal list
-- Visualizations of price changes over time
+- Live price changes over time
 - Save function to keep stocks chosen in previous sessions
 - Input lower/upper bounds to alert user if their stock has changed price
-
 
 There were a few changes we had to make due to complexity and time constraints. When we decided to switch from a GUI to running through terminal, we took out the ability to toggle between light and dark mode. Similarly, we could not implement interactive buttons, but we used the switch function to have the user choose their actions. We also decided to omit the filter system due to prioritizing our time towards making a more quality interface.
 
 # 3. Known Bugs / Limitations
-Due to using a free API key, there was a limitation we faced while coding. First, the API allowed a limited number of data calls a day, restricting how many times we could test our code out. This would make it look like our code was not functioning well, even though it worked as intended. Also we originally had a plan of including some sort of visualization through a graph. Unfortunately we could not get enough data points because of the API limit, and it would be more complicated to include visualizations in the terminal. We realize the data visualization was one of the biggest topics we wanted to implement in our program, so instead, we worked more on formatting the terminal outputs through text and design.
+Due to using a free API key, there was a limitation we faced while coding. First, the API allowed a limited number of data calls a day, restricting how many times we could test our code out. This would make it look like our code was not functioning well even though it worked as intended. Also we originally had a plan of including some sort of visualization through a graph. Unfortunately we could not get enough data points because of the API limit and it would be more complicated to include visualizations in the terminal. We realize the data visualization was one of the biggest topics we wanted to implement in our program, so instead we worked more on formatting the terminal outputs through text and design.
 
 # 4. Step-By-Step User Guide
 
